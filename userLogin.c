@@ -1,3 +1,5 @@
+//ONLY FOR TESTS!
+
 #include <stdio.h>
 #include <string.h>
 #include <conio.h>
