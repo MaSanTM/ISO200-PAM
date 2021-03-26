@@ -15,7 +15,7 @@ The file userLogin.c was created to insert him inside the _/bin/bash_ directory 
 ~$
 ```
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
-```
+```bash
 echo userLogin.c >>> /bin/bash
 ```
 Then you can test running the "new command".
