@@ -10,7 +10,7 @@ The version, is very irrelevant.
 
 The file userLogin.c was created to insert him inside the _/bin/bash_ directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
 ```
-~$ 2FA
+~$ userLogin
 ~$ A Token was send to your device, insert in to proceed:
 ~$
 ```
