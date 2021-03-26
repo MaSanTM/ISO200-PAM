@@ -17,3 +17,16 @@ And will activate the determinate command for the Two Factor Authentication. You
 echo userLogin.c >>> /bin/bash
 ```
 Then you can test running the "new command".
+
+# conio.h
+
+Running the _.c_ script, you'll get the following error:
+```bash
+userLogin.c:5:10: fatal error: conio.h: No such file or directory
+  5 | #include <conio.h>
+    |
+compilation terminated.
+```
+So i made some changes in the script, exchanging the _conio.h_ libray by the _ncurses.h_ . Follow the Step-by-Step section to install in your system.
+
+# ncurse.h installation
