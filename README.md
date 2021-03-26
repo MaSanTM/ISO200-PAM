@@ -14,4 +14,8 @@ The file userLogin.c was created to insert him inside the _/bin/bash_ directory 
 ~$ A Token was sent to your device, insert in to proceed:
 ~$
 ```
-And will activate the determinate command for the Two Factor Authentication.
+And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
+```
+echo userLogin.c >>> /bin/bash
+```
+Then you can test running the "new command".
