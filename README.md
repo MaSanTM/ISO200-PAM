@@ -31,4 +31,4 @@ So i made some changes in the script, exchanging the _conio.h_ libray by the _nc
 
 # ncurse.h installation
 
-## Installing in Debian and derivates:
+### Installing in Debian and derivates:
