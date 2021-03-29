@@ -30,3 +30,5 @@ compilation terminated.
 So i made some changes in the script, exchanging the _conio.h_ libray by the _ncurses.h_ . Follow the Step-by-Step section to install in your system.
 
 # ncurse.h installation
+
+# Installing in Debian and derivates:
