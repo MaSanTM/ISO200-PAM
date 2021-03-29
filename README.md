@@ -4,7 +4,7 @@
 
 For use, you'll need an **Arch Linux** distribution: https://archlinux.org/download/ the version, is very irrelevant.
 
-# /bin/bash
+## /bin/bash
 
 The file userLogin.c was created to insert him inside the _/bin/bash_ directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
 ```
@@ -18,7 +18,7 @@ echo userLogin.c >>> /bin/bash
 ```
 Then you can test running the "new command".
 
-# conio.h
+## conio.h
 
 Running the _.c_ script, you'll get the following error:
 ```bash
@@ -29,6 +29,6 @@ compilation terminated.
 ```
 So i made some changes in the script, exchanging the _conio.h_ libray by the _ncurses.h_ . Follow the Step-by-Step section to install in your system.
 
-# ncurse.h installation
+## ncurse.h installation
 
 ### Installing in Debian and derivates:
