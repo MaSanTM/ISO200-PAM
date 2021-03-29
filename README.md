@@ -41,5 +41,5 @@ So i made some changes in the script, exchanging the _conio.h_ libray by the _nc
 
 1. A package is need to install the library in *.rpm* distros. Run the command:
 ```bash
-~# yum install ncurses-devel
+~# dnf install ncurses-devel
 ```
