@@ -32,3 +32,14 @@ So i made some changes in the script, exchanging the _conio.h_ libray by the _nc
 ## ncurse.h installation
 
 ### Installing in Debian and derivates:
+
+1. Some packages will need to be installed before the library. Run the command:
+```bash
+~# apt-get install libncurses5-dev libncursesw5-dev
+```
+### Installing in RHEL and derivates:
+
+1. A package is need to install the library in *.rpm* distros. Run the command:
+```bash
+~# yum install ncurses-devel
+```
