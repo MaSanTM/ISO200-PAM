@@ -13,11 +13,11 @@ int main()
     scanf("%s", &userName);
     
     printf("\nEnter your password:\n");
-    scanf("%s", &password);
+    scanf("%s", &passWord);
     
     if(strcmp(userName, "user")==0){
         if(strcmp(passWord, "246")==0){
-            printf("\nLogin succesfull!\n")
+            printf("\nLogin succesfull!\n");
         }else{
             printf("\nWrong password!\n"); //'ifs' gone wrong...
         }
