@@ -4,7 +4,7 @@
 
 For use, you'll need an **Arch Linux** distribution: https://archlinux.org/download/ the version, is very irrelevant.
 
-## /bin/bash
+## $PATH
 
 The file userLogin.c was created to insert him inside the _/bin/bash_ directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
 ```
