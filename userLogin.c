@@ -1,4 +1,11 @@
-//ONLY FOR TESTS!
+/*
+   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+   #                                                       #
+   #    AUTHOR: SANTOS, Mateus Henrique                    #
+   #    COPYRIGHT (C) MATEUS HENRIQUE DOS SANTOS, 2021     #
+   #                                                       #
+   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+*/
 
 #include <stdio.h>
 #include <string.h>
