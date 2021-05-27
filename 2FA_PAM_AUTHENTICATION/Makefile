@@ -1,5 +1,5 @@
 
-pam_acesso2.o: pam_access.c	# sudo make
+pam_access.o: pam_access.c	# sudo make
 	gcc -fPIC  -fno-stack-protector -c pam_access.c
 
 install: pam_access.o 			# sudo make install
