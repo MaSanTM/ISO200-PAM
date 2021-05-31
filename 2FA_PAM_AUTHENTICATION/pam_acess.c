@@ -1,4 +1,4 @@
-﻿/*
+/*
     * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
    * AUTHOR: SANTOS, Mateus Henrique                        *
    * SEE ME IN: linkedin.com/in/mateus-h-santos             *
@@ -19,27 +19,25 @@
 #include <security/pam_modules.h>
 #include <security/pam_ext.h>
 
-#define _GNU_SOURCE 
-    
+#define _GNU_SOURCE
 
-PAM_EXTERN int pam_sm_setcred( pam_handle_t *pamh, int flags, int argc, const char **argv ) 
+
+PAM_EXTERN int pam_sm_setcred( pam_handle_t *pamh, int flags, int argc, const char **argv )
 {
-	return PAM_SUCCESS;
+        return PAM_SUCCESS;
 }
-PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, const char **argv ) 
+PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, const char **argv )
 {
       FILE *g= fopen("/etc/pam.d/pam.acesso/acesso.serial", "r");
-   
+
     if (!g)
       {
-        perror("\nAccess denied!\n
-        See /etc/pam.d/pam.access/serial.access.");
-		sleep(2);
-		return PAM_AUTH_ERR;
-		
+        perror("\nAccess denied! See /etc/pam.d/pam.access/serial.access.");
+                sleep(2);
+                return PAM_AUTH_ERR;
       }
    else
-	   return PAM_SUCCESS;
-	   
-       fclose(g);    
+           return PAM_SUCCESS;
+
+       fclose(g);
 }
