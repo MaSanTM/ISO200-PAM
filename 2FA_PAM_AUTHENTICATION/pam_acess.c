@@ -28,7 +28,7 @@ PAM_EXTERN int pam_sm_setcred( pam_handle_t *pamh, int flags, int argc, const ch
 }
 PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, const char **argv )
 {
-      FILE *g= fopen("/etc/pam.d/pam.acesso/acesso.serial", "r");
+      FILE *g= fopen("/etc/pam.d/pam.access/serial.access", "r");
 
     if (!g)
       {
