@@ -5,8 +5,8 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
-<h3>HOW-TO</h3>
-<h4>Installing Make</h4>
+<h2>HOW-TO</h2>
+<h3>Installing Make</h3>
 
 First of all, you'll need Make to run the commands for the installation. So:
 ```bash
@@ -14,7 +14,7 @@ First of all, you'll need Make to run the commands for the installation. So:
 # man make
 ```
 or
-```
+```bash
 # make -help
 ```
 
