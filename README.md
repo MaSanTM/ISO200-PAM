@@ -5,7 +5,7 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and you can download it here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
-## $PATH
+## HOW TO
 
 The file userLogin.c was created to insert him inside the ```/bin/bash``` directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
 ```
