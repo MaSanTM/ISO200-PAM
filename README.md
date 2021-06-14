@@ -7,7 +7,7 @@
 
 ## HOW-TO
 **Installing Make**
-First of all, you'll need Make to run the commands for the installation. So:
+<p>First of all, you'll need Make to run the commands for the installation. So:</p>
 ```
 # pacman -S make
 # man make
