@@ -6,12 +6,15 @@
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
 ## HOW-TO
-
-The file userLogin.c was created to insert him inside the ```/bin/bash``` directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
+**Installing Make**
+First of all, you'll need Make to run the commands for the installation. So:
 ```
-~$ userLogin
-~$ A Token was sent to your device, insert in to proceed:
-~$ 
+# pacman -S make
+# man make
+```
+or
+```
+# make -help
 ```
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
 ```bash
