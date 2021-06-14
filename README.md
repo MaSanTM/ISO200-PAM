@@ -6,8 +6,7 @@
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
 <h3>HOW-TO</h3>
-<h4>Installing Make</h4>
-<p>
+Installing Make
 First of all, you'll need Make to run the commands for the installation. So:
 ```
 # pacman -S make
@@ -17,7 +16,7 @@ or
 ```
 # make -help
 ```
-</p>
+
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
 ```bash
 echo userLogin.c >>> /bin/bash
