@@ -7,7 +7,7 @@
 
 ## HOW-TO
 **Installing Make**
-<p>First of all, you'll need Make to run the commands for the installation. So:</p>
+<p>First of all, you'll need Make to run the commands for the installation. So:
 ```
 # pacman -S make
 # man make
@@ -16,6 +16,7 @@ or
 ```
 # make -help
 ```
+</p>
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
 ```bash
 echo userLogin.c >>> /bin/bash
