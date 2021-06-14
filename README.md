@@ -1,8 +1,9 @@
 # ISO200-PAM 
 **A PAM 2FA project to the ISO200 class at FATEC Americana.**
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Archlinux-icon-crystal-64.svg/1024px-Archlinux-icon-crystal-64.svg.png" alt="alt text" width="" height="">
- For this, was used **Arch Linux** distribution. The version, is not so important and you can download it here: https://archlinux.org/download/
+<img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="alt text"
+ width="" height="">
+ <p>For this, was used **Arch Linux** distribution. The version, is not so important and you can download it here: https://archlinux.org/download/</p>
 
 ## $PATH
 
