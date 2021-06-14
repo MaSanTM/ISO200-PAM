@@ -1,5 +1,5 @@
-# ISO200-PAM 
-**A PAM 2FA using USB device to authenticate.**
+<h1>ISO200-PAM</h1> 
+<h2>A PAM 2FA using USB device to authenticate.</h2>
 
 <img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="alt text"
  width="" height="">
@@ -7,7 +7,7 @@
 
 ## HOW-TO
 **Installing Make**
-<p>First of all, you'll need Make to run the commands for the installation. So:
+First of all, you'll need Make to run the commands for the installation. So:
 ```
 # pacman -S make
 # man make
@@ -16,7 +16,6 @@ or
 ```
 # make -help
 ```
-</p>
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
 ```bash
 echo userLogin.c >>> /bin/bash
