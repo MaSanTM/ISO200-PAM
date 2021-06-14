@@ -9,7 +9,7 @@ For use, you'll need an **Arch Linux** distribution: https://archlinux.org/downl
 The file userLogin.c was created to insert him inside the ```/bin/bash``` directory on distribution. As we know, this directory contains all binaries of the system, ie we can run the command direct from the Shell. For example:
 ```
 ~$ userLogin
-~$ A Token was sent to your device, insert in to proceed:
+~$ A Token was sent to your device, insert in [test] to proceed:
 ~$ 
 ```
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
