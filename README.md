@@ -1,6 +1,7 @@
 <h1>PAM 2FA</h1> 
 <h2>A PAM 2FA using USB device to authenticate.</h2>
 <p>This module was developed for Operational Systems II class in my technologycal degree. Below will be the entire installation and execution process.</p>
+<h2>Arch Linux</h2>
 <img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="alt text"
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
