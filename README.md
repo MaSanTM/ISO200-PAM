@@ -1,5 +1,5 @@
 # ISO200-PAM 
-**A PAM 2FA project to the ISO200 class at FATEC Americana.**
+**A PAM 2FA using USB device to authenticate.**
 
 <img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="alt text"
  width="" height="">
