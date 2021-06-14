@@ -12,10 +12,11 @@
 First of all, you'll need Make to run the commands for the installation. So:
 ```bash
 # pacman -S make
-# man make
 ```
-or
+<h3>Checking Make</h3>
+
 ```bash
+# man make
 # make -help
 ```
 
