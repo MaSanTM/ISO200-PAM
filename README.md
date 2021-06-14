@@ -1,4 +1,4 @@
-<h1>ISO200-PAM</h1> 
+<h1>PAM 2FA</h1> 
 <h2>A PAM 2FA using USB device to authenticate.</h2>
 
 <img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" alt="alt text"
