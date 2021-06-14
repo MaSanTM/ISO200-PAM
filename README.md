@@ -1,8 +1,8 @@
 # ISO200-PAM 
 **A PAM 2FA project to the ISO200 class at FATEC Americana.**
 
-
-For this, was used **Arch Linux** distribution the version, is not so important. You can download it here: https://archlinux.org/download/
+![alt text](https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png)
+For this, was used **Arch Linux** distribution. The version, is not so important and you can download it here: https://archlinux.org/download/
 
 ## $PATH
 
