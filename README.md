@@ -6,7 +6,7 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
-<h2>MAKE</h2>
+<h2>Makepkg</h2>
 <h3>Installing Make</h3>
 
 First of all, you'll need Make to run the commands for the installation. So:
@@ -18,7 +18,7 @@ First of all, you'll need Make to run the commands for the installation. So:
 ```bash
 # make -help
 ```
-<h2>Gnu Compiler Collection - GCC</h2>
+<h2>GNU Compiler Collection - GCC</h2>
 And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
 ```bash
 echo userLogin.c >>> /bin/bash
