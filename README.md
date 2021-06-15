@@ -9,7 +9,7 @@
 <h2>Makepkg</h2>
 <h3>Installing Make</h3>
 
-First of all, you'll need Make to run the commands for the installation. So:
+You'll need Make to run the commands for the installation. So:
 ```bash
 # pacman -S make
 ```
@@ -19,9 +19,10 @@ First of all, you'll need Make to run the commands for the installation. So:
 # make -help
 ```
 <h2>GNU Compiler Collection - GCC</h2>
-And will activate the determinate command for the Two Factor Authentication. You can the _.c_ file into the directory simple following the script:
+Then install the GCC to _Makepkg_ work correctly:
+
 ```bash
-echo userLogin.c >>> /bin/bash
+# pacman -S gcc
 ```
 Then you can test running the "new command".
 
