@@ -19,12 +19,17 @@ You'll need Make to run the commands for the installation. So:
 # make -help
 ```
 <h2>GNU Compiler Collection - GCC</h2>
+<h3>Installing GCC</h3>
 Then install the GCC to _Makepkg_ work correctly:
 
 ```bash
 # pacman -S gcc
 ```
-Then you can test running the "new command".
+<h3>Checking</h3>
+
+```bash
+# gcc -h
+```
 
 ## conio.h
 
