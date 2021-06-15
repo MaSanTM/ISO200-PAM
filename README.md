@@ -6,6 +6,7 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
+<h1>HOW TO</h1>
 <h2>Makepkg</h2>
 <h3>Installing Make</h3>
 
