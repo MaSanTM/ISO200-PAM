@@ -31,7 +31,7 @@ Then install the GCC to _Makepkg_ work correctly:
 # gcc -h
 ```
 
-## conio.h
+## conio.h library
 
 Running the _.c_ script, you'll get the following error:
 ```bash
