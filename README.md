@@ -21,7 +21,7 @@ You'll need Make to run the commands for the installation. So:
 ```
 <h2>GNU Compiler Collection - GCC</h2>
 <h3>Installing GCC</h3>
-Then install the GCC to __Makepkg__ work correctly:
+Then install the GCC to Makepkg work correctly:
 
 ```bash
 # pacman -S gcc
