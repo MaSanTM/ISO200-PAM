@@ -6,7 +6,7 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
-<h1>1 HOW TO</h1>
+<h1>1 PRE-INSTALLATION</h1>
 <h2>1.1 Makepkg</h2>
 <h3>1.1.1 Installing Make</h3>
 
