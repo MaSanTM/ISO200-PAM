@@ -6,27 +6,27 @@
  width="" height="">
  <p>For this, was used Arch Linux distribution. The version, is not so important and can be downloaded here: https://archlinux.org/download/ You are free to use any Linux distribution you like.</p>
 
-<h1>HOW TO</h1>
-<h2>Makepkg</h2>
-<h3>Installing Make</h3>
+<h1>1 HOW TO</h1>
+<h2>1.1 Makepkg</h2>
+<h3>1.1.1 Installing Make</h3>
 
 You'll need Make to run the commands for the installation. So:
 ```bash
 # pacman -S make
 ```
-<h3>Checking Make</h3>
+<h3>1.1.2 Checking Make</h3>
 
 ```bash
 # make -help
 ```
-<h2>GNU Compiler Collection - GCC</h2>
-<h3>Installing GCC</h3>
+<h2>1.2 GNU Compiler Collection - GCC</h2>
+<h3>1.2.1 Installing GCC</h3>
 Then install the GCC to Makepkg work correctly:
 
 ```bash
 # pacman -S gcc
 ```
-<h3>Checking</h3>
+<h3>1.2.2 Checking</h3>
 
 ```bash
 # gcc -h
