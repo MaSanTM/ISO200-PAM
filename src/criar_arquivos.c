@@ -62,7 +62,7 @@ void makeFileSerial(){
         printf("    ERROR creating the serials...\n");
     }
     else{
-        printf("    Serial files created successfully!\n");
+        printf("    Serial files and");
     }
 }
 
@@ -75,7 +75,7 @@ void makeFileLog(){
         printf("    ERROR creating the logins history...\n");
     }
     else{
-        printf("    Logins history files created successfully!\n");
+        printf("    login history files created successfully!\n");
     }
 }
 
@@ -211,7 +211,7 @@ int main(int argc, char *argv[]){
     system("clear"); 
 
      puts("\n-> Installing:");
-    puts("---------------------------------------------------");
+
     sleep(2);
 
     puts("\n-> Creating the configuration modules:");
