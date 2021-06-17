@@ -80,6 +80,6 @@ Read the instructions and follow to the next step.
 <h2>2.3 /etc/pam.d </h2>
 Now, you can go to the PAM directories of your distribution:
 
-```c
+```bash
 # cd /etc/pam.d
 ```
