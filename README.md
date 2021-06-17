@@ -55,7 +55,7 @@ Next install the Git to clone the repository:
 
 You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA
 <h2>2.2 The source files</h2>
-Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.
+Entering in the `/src` you'll see some files in `.c` and a Makefile. If you want, see the contents.
 
 ```bash
 # cat addpendrive.c
