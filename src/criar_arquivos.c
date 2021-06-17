@@ -195,7 +195,7 @@ void addUser( char nome[256] ){
         //fclose to close the file
         fclose(pont_arq);
 
-        puts("    USB device registered successfully!\n");
+        puts("    The USB device is ready to use =D\n");
 
 }
 
@@ -229,7 +229,7 @@ int main(int argc, char *argv[]){
 
     char nome[100]; 
 
-    puts("\n-> Flash drive registered!");
+    puts("\n-> Flash drive registered!\n");
 
     addUser(nome);
 
