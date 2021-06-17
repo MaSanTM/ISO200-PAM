@@ -68,7 +68,7 @@ or
 ```
 
 <h2>2.2.1 The Makefile</h2>
-The Makefile will automate our installation process. So run it:
+The Makefile will automate your installation process. So run it:
 
 ```bash
 # make 
