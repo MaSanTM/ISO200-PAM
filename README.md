@@ -67,10 +67,14 @@ or
 # cat Makefile
 ```
 
-<h2>2.2.1 The Makefile</h2>
+<h3>2.2.1 The Makefile</h3>
 The Makefile will automate your installation process. So run it:
 
 ```bash
 # make 
 # make install 
 ```
+
+Read the instructions and follow to the next step.
+
+<h2>2.3 /etc/pam.d </h2>
