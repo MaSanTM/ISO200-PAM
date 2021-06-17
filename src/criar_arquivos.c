@@ -234,5 +234,5 @@ int main(int argc, char *argv[]){
     addUser(nome);
 
     system("read -p \"Press Enter to continue...\" foo");
-
+    system("clear");
 }
