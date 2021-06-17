@@ -202,7 +202,7 @@ void addUser( char nome[256] ){
 int main(int argc, char *argv[]){
     system("clear");
 
-    puts("\n\n                  WELCOME TO THE PAM 2FA MODULE!")
+    puts("\n\n                  WELCOME TO THE PAM 2FA MODULE!");
     puts("\n 1 - Make sure that the flash drive is connected and installed;");
     puts("\n 2 - Make sure thath only one flash drive is connected in your machine;");
     puts("\n 3 - If any USB device be detected, the program will be close;");
@@ -229,7 +229,7 @@ int main(int argc, char *argv[]){
 
     char nome[100]; 
 
-    puts("\n-> Flash drive registered!"");
+    puts("\n-> Flash drive registered!");
 
     addUser(nome);
 
