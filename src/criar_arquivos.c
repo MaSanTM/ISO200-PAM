@@ -204,7 +204,6 @@ int main(int argc, char *argv[]){
     puts("\n 2 - Make sure thath only one flash drive is connected in your machine;");
     puts("\n 3 - If any USB device be detected, the program will be close.");
     system("read -p \"\nPress Enter to continue...\" foo");
-
     system("clear"); 
 
      puts("\n-> Installing:");
