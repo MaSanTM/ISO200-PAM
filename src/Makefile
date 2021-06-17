@@ -15,7 +15,7 @@ uninstall:
 	rm -rf /etc/pam.d/pam.pdrive
 	sed -i '/pam_pdrive/d' /etc/pam.d/system-auth
 	clear
-	@echo "\n\n -> Module removed successfully!\n\n"
+	@echo " -> Module removed successfully =)"
 
 addpendrive:
 	./add_pendrive
