@@ -89,14 +89,16 @@ In this directory, a folder with the name "pam.pdrive" was created. Inside it:
 <h1>3 MAKE</h1>
 <h2>3.1 Makepkg utilities</h2>
 As root, besides installing you can:
+
 <br><li>Uninstall the modules</li>
 
 ```bash
 # make uninstall
 ```
-
+To uninstall the module and all configurations made by him.
 <br><li>Add another flash drive</li>
 
 ```bash
 # make addpendrive
 ```
+To add another pendrive beyond what has already been registered.
