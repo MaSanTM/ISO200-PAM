@@ -53,7 +53,7 @@ Next install the Git to clone the repository:
 # git clone https://www.github.com/MaSanTM/PAM_2FA
 ```
 
-<h3>You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA</h3>
+<h4>You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA</h4>
 <h2>2.2 The source files</h2>
 <h3>Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.</h3>
 
