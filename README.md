@@ -83,5 +83,8 @@ Now, you can go to the PAM directories of your distribution:
 # cd /etc/pam.d
 ```
 In this directory, a folder with the name "pam.pdrive" was created. Inside it:
+
+```
 <br><li>/pam.pdrive/login: only the root user can access this. Contains the serials of acess.</li>
 <br><li>/log: log files and respectives serials</li>
+```
