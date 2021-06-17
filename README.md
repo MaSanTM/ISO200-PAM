@@ -85,3 +85,18 @@ Now, you can go to the PAM directories of your distribution:
 In this directory, a folder with the name "pam.pdrive" was created. Inside it:
 <br><li>/pam.pdrive/login</li>
 <br><li>/pam.pdrive/log</li>
+
+<h1>3 MAKE</h1>
+<h2>3.1 Makepkg utilities</h2>
+As root, besides installing you can:
+<br><li>Uninstall the modules</li>
+
+```bash
+# make uninstall
+```
+
+<br><li>Add another flash drive</li>
+
+```bash
+# make addpendrive
+```
