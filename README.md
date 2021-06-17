@@ -53,9 +53,9 @@ Next install the Git to clone the repository:
 # git clone https://www.github.com/MaSanTM/PAM_2FA
 ```
 
-<h4>You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA</h4>
+You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA
 <h2>2.2 The source files</h2>
-<h4>Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.</h4>
+Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.
 
 ```bash
 # cat addpendrive.c
@@ -68,7 +68,7 @@ or
 ```
 
 <h2>2.2.1 The Makefile</h2>
-<h4>The Makefile will automate our installation process. So run it:</h4>
+The Makefile will automate our installation process. So run it:
 
 ```bash
 # make 
