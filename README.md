@@ -74,13 +74,6 @@ The Makefile will automate your installation process. So run it:
 # make 
 # make install 
 ```
-
-And if you want to add another flash drive:
-
-```bash
-# make addpendrive
-```
-
 Read the instructions and follow to the next step.
 
 <h2>2.3 /etc/pam.d </h2>
