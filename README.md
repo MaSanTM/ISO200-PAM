@@ -83,3 +83,4 @@ Now, you can go to the PAM directories of your distribution:
 ```bash
 # cd /etc/pam.d
 ```
+In this directory, a folder with the name "pam.pdrive" was created. Inside it
