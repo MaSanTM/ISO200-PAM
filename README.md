@@ -32,28 +32,18 @@ Then install the GCC to Makepkg work correctly:
 # gcc -h
 ```
 
-## conio.h library
+<h2>1.3 Git - Version Control</h2>
+<h3>1.3.1 Installing Git</h3>
+Next install the Git to clone the repository:
 
-Running the _.c_ script, you'll get the following error:
 ```bash
-userLogin.c:5:10: fatal error: conio.h: No such file or directory
-  5 | #include <conio.h>
-    |
-compilation terminated.
+# pacman -S git
 ```
-So i made some changes in the script, exchanging the _conio.h_ libray by the _ncurses.h_ . Follow the Step-by-Step section to install in your system.
 
-## ncurse.h installation
+<h3>1.3.2 Checking</h3>
 
-### Installing in Debian and derivates:
-
-1. Some packages will need to be installed before the library. Run the command:
 ```bash
-~# apt-get install libncurses5-dev libncursesw5-dev
+# git -h
 ```
-### Installing in RHEL and derivates:
 
-1. A package is need to install the library in *.rpm* distros. Run the command:
-```bash
-~# dnf install ncurses-devel
-```
+<h1>2 INSTALLATION</h1>
