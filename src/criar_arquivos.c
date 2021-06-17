@@ -79,7 +79,6 @@ void makeFileLog(){
     }
 }
 
-
 int verPendrive(){
     ssize_t len;
      
@@ -145,12 +144,10 @@ char verSerial(){
     }
  
     buf[len - 1] = 0;
-    
 
     return buf;
 
 }
-
 
 void addUser( char nome[256] ){
     ssize_t len;
