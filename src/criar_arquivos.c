@@ -195,7 +195,7 @@ void addUser( char nome[256] ){
         //fclose to close the file
         fclose(pont_arq);
 
-        puts("  The USB device is ready to use =D\n");
+        puts("    The USB device is ready to use =D\n");
 
 }
 
