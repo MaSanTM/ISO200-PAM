@@ -47,3 +47,30 @@ Next install the Git to clone the repository:
 ```
 
 <h1>2 INSTALLATION</h1>
+<h2>2.1 Cloning the repository:</h2>
+
+```bash
+# git clone https://www.github.com/MaSanTM/PAM_2FA
+```
+
+<h3>You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA</h3>
+<h2>2.2 The source files</h2>
+<h3>Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.</h3>
+
+```bash
+# cat addpendrive.c
+```
+
+or
+
+```bash
+# cat Makefile
+```
+
+<h2>2.2.1 The Makefile</h2>
+<h3>The Makefile will automate our installation process. So run it:</h3>
+
+```bash
+# make 
+# make install 
+```
