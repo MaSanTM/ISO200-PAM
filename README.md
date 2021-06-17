@@ -33,7 +33,7 @@ Then install the GCC to Makepkg work correctly:
 ```
 
 <h2>1.3 Git - Version Control</h2>
-<h3>1.3.1 Installing Git</h3>
+<h4>1.3.1 Installing Git</h4>
 Next install the Git to clone the repository:
 
 ```bash
@@ -55,7 +55,7 @@ Next install the Git to clone the repository:
 
 <h4>You can see the repository in the directory that you have dowloaded it. For example: /home/PAM_2FA</h4>
 <h2>2.2 The source files</h2>
-<h3>Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.</h3>
+<h4>Entering in the /src you'll see some files in .c and a Makefile. If you want, see the contents.</h4>
 
 ```bash
 # cat addpendrive.c
@@ -68,7 +68,7 @@ or
 ```
 
 <h2>2.2.1 The Makefile</h2>
-<h3>The Makefile will automate our installation process. So run it:</h3>
+<h4>The Makefile will automate our installation process. So run it:</h4>
 
 ```bash
 # make 
