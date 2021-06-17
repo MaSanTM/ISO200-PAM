@@ -13,35 +13,43 @@
 
 void makeDirPdrive(){
 
-    //if = 0 directory doesn't exist | if -1 = existent
+      //variable that save the state
+     // if = 0 directory doesn't exist
+    // if = -1 directory exist
     struct stat st = {0};
 	
-    //if -1, return the message, else don't create the directory
+      //if = -1 
+     //then return the message;
+    // else creates the directory
 	if (stat("/etc/pam.d/pam.pdrive", &st) == -1) {
 		if(mkdir("/etc/pam.d/pam.pdrive", 0700) == 0){
-            printf("    Directory created successfully: /pam.pdrive\n");
+            printf("    Directory created: /pam.pdrive\n");
 		}else{
-            printf("    Error creating the directory: /pam.pdrive\n");
+            printf("    ERROR creating directory: /pam.pdrive\n");
         }
 	}else{
-            printf("    Directory already exists: /pam.pdrive\n");
+            printf("    Existing directory: /pam.pdrive\n");
     }
 }
 
 void makeDirLog(){
 
-        //save the state, if = 0 then  directory doesn't exist | if = -1 existent
+        //variable that save the state
+       // if = 0 directory doesn't exist
+      // if = -1 directory exist
         struct stat st = {0};
         
-        //if = 1, return the message, else don't create the directory
+        //if = -1 
+       //then return the message;
+      // else creates the directory
         if (stat("/etc/pam.d/pam.pdrive/log", &st) == -1) {
                 if(mkdir("/etc/pam.d/pam.pdrive/log", 0700) == 0){
-                    printf("    Directory create successfully: /log\n");
+                    printf("    Directory created: /log\n");
                 }else{
-                    printf("    Error creating the directory: /log\n");
+                    printf("    ERROR creating directory: /log\n");
                 }
             }else{
-                    printf("    Directory already exists: /log\n");
+                    printf("    Existing directory: /log\n");
         }
 }
 
@@ -51,10 +59,10 @@ void makeFileSerial(){
     pdrive_serial = fopen("/etc/pam.d/pam.pdrive/pdrive.serial", "a");
 
     if (pdrive_serial == NULL){
-        printf("    Error creating the serial file...\n");
+        printf("    ERROR creating the serials...\n");
     }
     else{
-        printf("    Serial files created sucessfully!\n");
+        printf("    Serial files created successfully!\n");
     }
 }
 
@@ -64,10 +72,10 @@ void makeFileLog(){
     log = fopen("/etc/pam.d/pam.pdrive/log/login", "a");
 
     if (log == NULL){
-        printf("    Error creating login history files...\n");
+        printf("    ERROR creating the logins history...\n");
     }
     else{
-        printf("    Login history files created successfully!\n");
+        printf("    Logins history files created successfully!\n");
     }
 }
 
@@ -171,50 +179,49 @@ void addUser( char nome[256] ){
  
     buf[len - 1] = 0;
 
-    FILE *pont_arq; // pointer to the variable file
-        
-        //opening the file with "w" type
+    FILE *pont_arq; //creates the variable pointer to the file
+        //opening "w" type files
         pont_arq = fopen("/etc/pam.d/pam.pdrive/pdrive.serial", "w");
         
-        //testing the file
+        //testing files
         if(pont_arq == NULL)
         {
-        printf("    Erro na abertura do arquivo!");
+        printf("    ERROR: opening the file...");
         }
         
-        //using fprintf to store the string into a file
+        //fprintf to store the string into the file
         fprintf(pont_arq, "%s", buf);
 
-        //using fclose to close the file
+        //fclose to close the file
         fclose(pont_arq);
 
-        puts("    Device registered successfully!\n");
+        puts("    USB device registered successfully!\n");
 
 }
 
 int main(int argc, char *argv[]){
     system("clear");
 
-    puts("\n\n-> WELCOME TO THE PAM 2FA MODULE!");
-    puts("\n\n-> 1 - Make sure that the flash drive is connected and installed.");
-    puts("\n-> 2 - Make sure thath only a single flash drive is connected and installed.");
-    puts("\n-> 3 - If not detected, the program will terminate.");
+    puts("\n\n-> WELCOME TO THE PAM 2FA MODULE!")
+    puts("\n-> 1 - Make sure that the flash drive is connected and installed;");
+    puts("\n-> 2 - Make sure thath only one flash drive is connected in your machine;");
+    puts("\n-> 3 - If any USB device be detected, the program will be close;");
     system("read -p \"\nPress Enter to continue...\" foo");
 
     system("clear"); 
 
-     puts("\n-> Starting installation:");
+     puts("\n-> Installing:");
     puts("---------------------------------------------------");
     sleep(2);
 
-    puts("\n-> Creating module configuration directories:");
+    puts("\n-> Creating the configuration modules:");
     puts("   '/etc/pam.d/pam.pdrive'");
     puts("   '/etc/pam.d/pam.pdrive/log'");
     makeDirPdrive();
     makeDirLog();
     sleep(2);
 
-    puts("\n-> Creating the files that store the serials:");
+    puts("\n-> Creating the file that will store the serials:");
     puts("   '/etc/pam.d/pam.pdrive'");
     puts("   '/etc/pam.d/pam.pdrive/log'");
     makeFileSerial();
@@ -222,7 +229,7 @@ int main(int argc, char *argv[]){
 
     char nome[100]; 
 
-    puts("\n-> Registering the USB device:");
+    puts("\n-> Flash drive registered!"");
 
     addUser(nome);
 

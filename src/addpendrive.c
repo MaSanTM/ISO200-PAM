@@ -47,15 +47,15 @@ int main()
  
     buf[len] = 0;
 
-    FILE *pont_arq; // pointer to the file
+    FILE *pont_arq; // creates the variable pointer to the file
         
-        //opening file with "w" type
+        //open a "w" type file
         pont_arq = fopen("/etc/pam.d/pam.pdrive/pdrive.serial", "a");
         
-        //testing files
+        //testing file
         if(pont_arq == NULL)
         {
-        printf("    \n\n  ->Error in the opening of the file!");
+        printf("    \n\n  ->ERROR: opening the file!");
         }
         
         //fprintf to store the string into the file
@@ -64,7 +64,7 @@ int main()
         //fclose to close the file
         fclose(pont_arq);
 
-        puts("    \n\n-> Device registered successfully.\n\n");
+        puts("    \n\n-> Flash drive registered successfully!\n\n");
   
   
 }

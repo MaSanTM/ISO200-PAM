@@ -14,12 +14,10 @@
 
 #define _GNU_SOURCE 
     
-
 PAM_EXTERN int pam_sm_setcred( pam_handle_t *pamh, int flags, int argc, const char **argv ) 
 {
 	return PAM_SUCCESS;
 }
-
 PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, const char **argv ) 
 {
 
@@ -43,20 +41,18 @@ PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, cons
     for (i=0; i<6; i++) {
         p = strrchr(buf2, '/');
         *p = 0;
+
     }
-   
+
     // printf("%s\n", buf2);
     strcat(buf2, "/serial");
     // printf("opening %s\n", buf2);
 
     int f = open(buf2, 0);
     len = read(f, buf, 256);
-    if (len <= 0) {
-        
+    if (len <= 0) {   
     }
- 
     buf[len - 1 ] = 0;
-
 
       FILE *g= fopen("/etc/pam.d/pam.pdrive/pdrive.serial", "r");
     size_t serial = 100; 
@@ -96,14 +92,14 @@ PAM_EXTERN int pam_sm_authenticate( pam_handle_t *pamh, int flags,int argc, cons
                 fprintf(log, "%d:", data_hora_atual->tm_min);
                 fprintf(log, "%d\n ", data_hora_atual->tm_sec);
 
-          printf("\n\n  -> Flash drive verified successfully!");
-          printf("\n          -> Loging..\n\n");
+          printf("\n\n  -> Flash drive registered");
+          printf("\n          -> Logging..\n\n");
           sleep(2);
           return PAM_SUCCESS;
       }else{
         system("clear");
-          printf("\n\n  -> Flash drive not registered!");
-          printf("\n          -> Insert a registered device and try again!\n\n");
+          printf("\n\n  -> Unidentified flash drive!");
+          printf("\n          -> Insert an allowed device, and try again...\n\n");
           sleep(2);
           return PAM_AUTH_ERR;
       }

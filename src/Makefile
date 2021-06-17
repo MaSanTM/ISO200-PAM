@@ -1,3 +1,5 @@
+
+
 pam_pdrive.o: pam_pdrive.c
 	gcc -fPIC -lcurl -fno-stack-protector -c pam_pdrive.c
 
@@ -13,7 +15,7 @@ uninstall:
 	rm -rf /etc/pam.d/pam.pdrive
 	sed -i '/pam_pdrive/d' /etc/pam.d/system-auth
 	clear
-	@echo "\n\n -> Authentication module removed successfully!\n\n"
+	@echo "\n\n -> Module removed successfully!\n\n"
 
 addpendrive:
 	./add_pendrive
