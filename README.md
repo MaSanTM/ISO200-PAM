@@ -83,8 +83,8 @@ Now, you can go to the PAM directories of your distribution:
 # cd /etc/pam.d
 ```
 In this directory, a folder with the name "pam.pdrive" was created. Inside it:
-<br><li>/pam.pdrive/login</li>
 <br><li>/pam.pdrive/log</li>
+<br><li>/pam.pdrive/pdrive.serial</li>
 
 <h1>3 MAKE</h1>
 <h2>3.1 Makepkg utilities</h2>
