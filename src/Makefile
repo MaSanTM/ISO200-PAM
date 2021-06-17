@@ -1,5 +1,4 @@
 
-
 pam_pdrive.o: pam_pdrive.c
 	gcc -fPIC -lcurl -fno-stack-protector -c pam_pdrive.c
 
