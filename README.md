@@ -96,9 +96,3 @@ As root, besides installing you can:
 # make uninstall
 ```
 To uninstall the module and all configurations made by him.
-<br><li>Add another flash drive</li>
-
-```bash
-# make addpendrive
-```
-To add another pendrive beyond what has already been registered.
